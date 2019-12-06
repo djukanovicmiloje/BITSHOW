@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#root{
+  width: 1200px;
+  margin: 100px auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(117,115,162,1) 0%);
+}
+
+header{
+  background-color: #0c0f26 ;
+  height: 100px;
+  color: gold;  
+  
+}
+header span{
+  line-height: 100px;
+  padding-left: 20px;
+  font-size: 40px;
+}
+#mainPage, #showPage{
+  background-color: #171934;
+  color: white;
+}
+footer{
+  background-color: #0c0f26 ;
+  height: 100px;
+  color: gold;
+}
+footer span{
+  display: block;
+  line-height: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+.rating{
+  color: #0c0f26;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: gold;
+}
+.card{
+  background: transparent;
+  color: white;
+}
+.show-card img{
+  height: 405px;
+}
+.pagi{
+  background: transparent;
+  border: 2px solid #0c0f26;
+  border-radius: 50%;
+}
+.pagi:hover{
+  background-color: gold;
+  color: #0c0f26;
+}
+.pageNumbers{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+#search{
+  background-color: #7573a2 ;
+  width: 500px;
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+  transition: width 0.5s;
+  border: none;
+  text-align: center;
+}
+#search:focus{
+  width: 700px;
+}
+#searchBar{
+  padding: 15px;
+}
+#noShows{
+  text-align: center;
+  color: gold;
+  height: 500px;
+  line-height: 500px;
+  font-size: 45px;
+}
+h1{
+  margin: 0;
+}
+#showPage{
+  padding-top: 45px;
+  margin: 0;
+}
+#showPage p {
+  padding: 1em;
+  font-size: 20px;
+}
+.actor img{
+  height: 260px;
+}
+.list .list{
+  background-color: transparent;
+  font-size: 40px;
+  border: none;
+}
+.collection {
+  border: none;
+
+}
+#cast{
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
